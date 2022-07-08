@@ -1,0 +1,31 @@
+.nav {
+    background-color: #333;
+    color: aliceblue;
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links { /*had # instead of .*/
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 25px;
+    width: 100px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}

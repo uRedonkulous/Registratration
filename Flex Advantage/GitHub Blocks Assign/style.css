@@ -1,0 +1,33 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img.octocat {
+    height: 200px;
+}
+
+.row {
+    width: 800px;
+    height: 250px;
+    background-color: beige;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.dojo {
+    background-color: black;
+}
+.coding {
+    background-color: aquamarine;
+    justify-content: space-evenly;
+}
+p {
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: green;
+}
+
+.top-bar, .main-content {
+    padding: 20px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-1, .column-2 {
+    padding: 20px;
+    background-color: rgb(53, 53, 202);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+}
+
+.top-bar-item {
+    width: 150px;
+    height: 100px;
+    background-color:rgb(53, 53, 202);
+    display: flex;
+    justify-content: end;
+
+}
+
+.content-item {
+    background-color: purple;
+}
+
+.column-1 .content-item {
+    width: 75px;
+    height: 75px;
+}
+
+.column-2 .content-item {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
